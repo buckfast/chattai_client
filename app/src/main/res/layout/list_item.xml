@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_height="wrap_content" android:layout_width="wrap_content"
+android:padding="4dp">
+<LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/textview_item"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="8dp"
+
+
+            android:text="sample"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/date"
+
+            android:paddingLeft="5dp"
+            android:paddingRight="8dp"
+
+            android:text="sample"
+            android:textColor="@color/light"
+            android:textSize="12dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/msg"
+
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+
+        android:paddingRight="8dp"
+        android:text="sample"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+</LinearLayout>
+</RelativeLayout>

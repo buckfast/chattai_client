@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Chattai</string>
+    <string name="menuitem1">change name</string>
+    <string name="menuitem2">users list</string>
+    <string name="menuitem3">history</string>
+    <string name="menuitem4">exit</string>
+    <string name="menuitem5">help</string>
+
+    <string name="edittextdefault">moi</string>
+    <string name="ip">ip address</string>
+    <string name="port">port</string>
+</resources>

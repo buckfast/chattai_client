@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/border"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/ip"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/ip"
+        android:text="10.0.2.2"
+        />
+
+    <EditText
+        android:id="@+id/port"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/port"
+        />
+    <Button
+        android:padding="2dp"
+        android:textSize="12dp"
+        android:background="@drawable/button2"
+        android:textColor="@color/vari1"
+        android:id="@+id/enterbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="enter >"/>
+
+</LinearLayout>
